@@ -1,228 +1,165 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <body>
-    
-<div class="background-image"></div>
-  <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+<html>
 
-</style>
-<title>welcome</title>
-  
-    <head>
 
-        <style>
-            * {background-color: black} 
+  <head>
+<title>APPUSER</title>
+<style>
 
-            .login-box {
-  position: absolute;
-  top: 18%;
-  left: 33%;
-  width: 460px;
-  height: 500px;
-  border: 1px solid #DADCE0;
-  border-radius: 10px;
+  .buttons {
+color: white;
+font-family: Arial;
+font-weight: bold;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: black;
+border-color: white;
+border-radius: 10px;
+transition: 1s;
+margin-left: 10px;
+margin-right: 10px;
+
+  }
+
+  .buttons:hover {
+color: rgb(0, 0, 0);
+font-family: Arial;
+font-weight: bold;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-radius: 10px;
+cursor: pointer;
+  }
+
+  .buttons:active {
+color: rgb(136, 136, 136);
+font-family: Arial;
+font-weight: bold;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-radius: 10px;
+  }
+
+* {background-color: black} 
+
+.title {
+color: white;
+font-family: Arial;
+font-size: 60px;
+font-weight: bold;
+text-align: center;
+transition: 3s;
+margin-bottom: 50px;
+cursor: none;
 }
 
+.title:hover {
 
-.login-box h1 {
-  position: absolute;
-  top: 15%;
-  left: 40%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-
+color: rgb(54, 54, 54);
 }
 
-.login-box x1 {
-  position: absolute;
-  top: 27%;
-  left: 30%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  
-}
-
-
-.login-box x2 {
-  position: absolute;
-  top: 52%;
-  left: 7%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  color: #ffffff;
-  
-}
-
-.login-box x3 {
-  position: absolute;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  color: #ffffff;
-  top: 81%;
-  left: 7%;
-
-}
-
-
-
-.login-box small {
-  position: absolute;
-  font-family: 'Poppins', sans-serif;
-  color: #5F6368;
-  top: 65%;
-  left: 7%;
-  
-}
-
-.login-box span {
-  color: #ffffff;
-  font-weight: bold;
-}
-
-.login-box input {
-  font-family: 'Poppins', sans-serif;
-  position: absolute;
+.description {
+  color: rgb(163, 163, 163);
+  transition: 1.5s;
   font-size: 20px;
-  width: 400px;
-  height: 50px;
-  top: 40%;
-  left: 7%;
-  background: black;
-	color: inherit;
-	border: 1px solid #ffffff;
-  border-radius: 3px;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-    padding-left: 2.2%;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Arial;
+  font-weight: 500;
+}
+
+.description:hover {
+  color:white;
+
 
 }
 
-input::placeholder {
-  position: absolute;
-  top: 30%;
-  left: 3%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-}
-
-.login-box button {
-  position: absolute;
-  top: 80%;
-  left: 74%;
-  font-family: 'Poppins', sans-serif;
-  background-color: #ffffff;
-  height: 40px;
-  width: 85px;
-  font-size: 15px;
-  color: rgb(0, 0, 0);
-  outline: none;
-  padding: 0;
-  border: white;
-  border-radius: 5px;
-
-}
-
-.login-box button:hover {
-  background-color: #000000;
+.pretitles {
   color: white;
- border-color: #ffffff;
-
-
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-.login-box button:active {
-    color: #555555;
+.version {
+  font-family: Arial;
+  font-size: 20px;
+  text-align: end;
+  margin-right: 17px;
+  color: white;
+  margin-top: 300px;
 }
+</style>
+
+  </head>
+
+<body>
 
 
-.login-box img {
-  position: absolute;
-  top: 7%;
-  left: 38%;
-  width: 100px;
-  height: 70px;
-}
-
-.tag h1 {
-  font-family: 'Poppins', sans-serif;
-  color: black;
-}
-
-.tag h1:hover {
-  font-family: 'Poppins', sans-serif;
-  color: rgb(0, 0, 0);
-}
-
-.tag span {
-  color: rgb(0, 0, 0);
-}
+<p class="title">
+  Welcome to "APPUSER"!!!
+</p>
 
 
-.tag a {
-  font-family: 'Poppins', sans-serif;
-  color: black;
-}
-        </style>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<p class="description">
+  This site was created to give acces for websites that are restricted.
+</p>
 
-    <title>password</title>
-    
-   </head>
-    
-   <div class="login-box">
-     
-     
-     <h1>...</h1>
-     <x1> Use your password</x1>
-     
-     <input type="username" placeHolder="password" style="color:white;" >
-     <br>
-     
-     <x3> inform about bags</x3>
-      
-    <button type="submit"> Next </button>
-    </div>
-    
 
-    
-    
-    
-    <div class="tag">
-      <h1>
-         <span> ... </span> ...
-    </h1>
-    
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-          // Select the input field and the button based on their position
-          var passwordInput = document.querySelector('input[type="username"]');
-          var nextButton = document.querySelector('button[type="submit"]');
-          
-          // Disable the button initially
-          nextButton.disabled = true;
-          
-          // Add an event listener to check the password
-          passwordInput.addEventListener("input", function() {
-            if (passwordInput.value === "12345") {
-              nextButton.disabled = false;  // Enable the button if the password is correct
-            } else {
-              nextButton.disabled = true;   // Keep the button disabled if the password is wrong
-            }
-          });
-      
-          // Redirect to the URL when the correct password is entered and button is clicked
-          nextButton.addEventListener("click", function() {
-            if (passwordInput.value === "12345") {
-              window.location.href = "https://chatgpt.com/c/66fc1629-2c7c-800e-89f0-0d1deaeed5f0"; // Redirect to the link
-            } else {
-              alert("Incorrect password.");
-            }
-          });
-        });
-      </script>
-      
-  </body>
+
+<p class="pretitles">
+Tools:
+</p>
+
+<button class="buttons"> <a class="buttons" href="https://chatgpt.com/c/66fc1629-2c7c-800e-89f0-0d1deaeed5f0" target="_blank">
+  chatgpt without login
+</a></button>
+
+<button class="buttons"> <a class="buttons" href="https://185.246.86.211/auth/login?next=/chat&__cpo=aHR0cHM6Ly9jaGF0Z3B0LmNvbQ#:~:text=ChatGPT%20helps%20you%20get%20answers,%20find" target="_blank">
+chatgpt with login
+  </a></button>
+
+<p class="pretitles">
+  Games:
+  </p>
+
+  <button class="buttons"> <a class="buttons" href="https://www.twoplayergames.org/game/basket-random" target="_blank">
+    2 player games
+  </a></button>
+
+  <button class="buttons"> <a class="buttons" href="https://flowlab.io/" target="_blank">
+    flowlab
+    </a></button>
+
+  <p class="pretitles">
+    socialmedias:
+    </p>
+
+    <button class="buttons"> <a class="buttons" href="https://108.181.90.129/?__cpo=aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbQ" target="_blank">
+      instagram
+    </a></button>
+
+    <button class="buttons"> <a class="buttons" href="https://108.181.90.129/explore?__cpo=aHR0cHM6Ly93d3cudGlrdG9rLmNvbQ" target="_blank">
+Tik Tok    </a></button>
+
+
+<p class="version">
+  version: Alpha 1.0
+</p>
+
+
+</body>
+
+
 </html>
+
